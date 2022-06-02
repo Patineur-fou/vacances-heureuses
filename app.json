@@ -1,0 +1,39 @@
+{
+  "name": "name",
+  "description": "",
+  "keywords": [],
+  "env": {
+    "ENCRYPT": {
+      "description": "1",
+      "value": "chacha20-ietf-poly1305"
+    },
+
+    "PASSWORD": {
+      "description": "2",
+      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+    },
+
+    "Path": {
+      "description": "3",
+      "generator": "secret"
+    },
+
+    "AppName": {
+      "description": "4",
+      "value": "name"
+    },
+
+    "TG_BOT_TOKEN": {
+      "description": "5",
+      "value": "abc:12345"
+    },
+
+    "TG_CHAT_ID": {
+      "description": "6",
+      "value": "1234567 or -1234567"
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+}
